@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--dark-red);
 }
 
+.btn {
+  padding: 0.75em 1em;
+}
+
 .btn-outline-primary {
   color: var(--primary);
   border-color: var(--primary);
@@ -71,5 +75,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-  background: linear-gradient(to right, rgba(238, 235, 221, 0.52), rgba(27, 23, 23, 0.73)), url('banner.jpeg')
+  background: linear-gradient(to right, rgba(238, 235, 221, 0.85), rgba(27, 23, 23, 0.73)), url('banner-alt.jpeg');
+  background-position: right;
 }
